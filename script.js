@@ -1,7 +1,7 @@
 function kirimData() {
     var nama = document.getElementById('nama').value;
-    var nim = document.getElementById('nim').value;
-    var peminatan = document.querySelector('input[name="peminatan"]:checked').value;
+    var nim = document.getElementById('nopen').value;
+    var peminatan = document.querySelector('input[name="jurusan"]:checked').value;
     var alamat = document.getElementById('alamat').value;
     var angkatan = document.getElementById('selectOption').value;
     var tanggal = document.getElementById('tanggal').value;
@@ -15,4 +15,5 @@ function kirimData() {
   
     alert(hasil);
   }
+  
   
