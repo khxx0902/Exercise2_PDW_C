@@ -1,0 +1,123 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .header {
+    background-color: #336699;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .header h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  /* Form */
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #336699;
+  }
+  
+  input[type="text"],
+  textarea,
+  select,
+  button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #336699;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #205080;
+  }
+  
+  /* Radio buttons */
+  input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  /* Styling radio button labels */
+  label[for="programming"],
+  label[for="desain"],
+  label[for="jaringan"],
+  label[for="data"] {
+    display: inline-block;
+    margin-right: 10px;
+    color: #336699;
+  }
+  
+  /* Styling selected radio button */
+  input[type="radio"]:checked+label {
+    font-weight: bold;
+    color: #336699;
+  }
+  
+  /* Success message */
+  .success {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 5px;
+  }
+  
+  /* Error message */
+  .error {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 5px;
+  }
+  
+  /* Field validation error */
+  .error input[type="text"],
+  .error textarea {
+    border-color: #f5c6cb;
+  }
+  
+  .error label {
+    color: #721c24;
+  }
+  
+  /* Date picker */
+  input[type="date"] {
+    /* Add any additional styling you want for the date picker */
+  }
